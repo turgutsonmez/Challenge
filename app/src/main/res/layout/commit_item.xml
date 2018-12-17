@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/txt_Commit"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="10dp"
+      android:layout_weight="10"
+      android:text="Beyazıttaki ve hazırlıktaki öğrencilerin uğrak yeri olan gayet sıcak bir kafedir."
+      android:textColor="#FF000000"
+      android:textSize="14sp" />
+
+  </LinearLayout>
+
+</android.support.v7.widget.CardView>

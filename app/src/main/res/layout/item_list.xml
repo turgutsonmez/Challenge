@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_margin="10dp"
+  app:cardCornerRadius="5dp">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:weightSum="2"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+    <LinearLayout
+      android:layout_margin="10dp"
+      android:layout_weight="1"
+      android:layout_width="match_parent"
+      android:orientation="vertical"
+      android:layout_height="wrap_content">
+
+      <TextView
+        android:id="@+id/txt_CafeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vefakar Cafe"
+        android:textColor="#FF462EC5"
+        android:textSize="17sp" />
+
+      <TextView
+        android:id="@+id/txt_Area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Süleymaniye"
+        android:textColor="#FF000000"
+        android:textSize="15sp"/>
+      <TextView
+        android:id="@+id/txt_City"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="İstanbul"
+        android:textColor="#FF000000"
+        android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_weight="1"
+      android:layout_height="wrap_content">
+
+      <TextView
+        android:id="@+id/txt_Country"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turkey"
+        android:textColor="#FFB8B8B8"
+        android:textSize="13sp"
+        />
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+
+
+
+
+
+
+</android.support.v7.widget.CardView>

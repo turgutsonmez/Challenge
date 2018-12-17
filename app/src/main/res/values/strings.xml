@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">Challenge</string>
+  <string name="exp_cafe_bar">Exp. Cafe, Bar</string>
+  <string name="close_to_me">Close to me</string>
+  <string name="search">Search</string>
+</resources>

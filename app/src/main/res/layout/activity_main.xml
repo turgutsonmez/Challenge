@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#E0E0E0"
+  android:gravity="center"
+  tools:context=".MainActivity">
+
+  <LinearLayout
+    android:padding="31dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+      android:id="@+id/editText_Place"
+      android:padding="10dp"
+      android:inputType="text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="6dp"
+      android:background="@drawable/radiustxt"
+      android:hint="@string/exp_cafe_bar"
+      android:textColor="#C7C7CD"
+      android:textStyle=""
+      android:textSize="17sp" />
+
+    <EditText
+      android:id="@+id/editText_City"
+      android:padding="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="6dp"
+      android:background="@drawable/radiustxt"
+      android:hint="@string/close_to_me"
+      android:textColor="#C7C7CD"
+      android:textSize="17sp" />
+
+    <Button
+      android:id="@+id/btn_Search"
+      android:padding="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="6dp"
+      android:background="@drawable/radius"
+      android:paddingLeft="20dp"
+      android:text="@string/search"
+      android:textColor="@android:color/white"
+      android:textStyle="bold"
+      android:drawableLeft="@mipmap/search"
+      android:drawableStart="@mipmap/search" />
+
+
+  </LinearLayout>
+
+</RelativeLayout>
